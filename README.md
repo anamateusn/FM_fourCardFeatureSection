@@ -46,7 +46,7 @@ This repository contains **two distinct implementations**:
 
 ## Research & Methodology
 
-This project was heavily influenced by **Andy Bell's "Be the browser's mentor, not its micromanager"** philosophy. The main focus was to practice and implement truly responsive websites that work across all devices without over-relying on media queries.
+This project was heavily influenced by **Andy Bell's "Be the browser's mentor, not its micromanager"** philosophy. The main focus was to practice and implement truly responsive websites that work across all devices without relying on media queries.
 
 ### Key Principles Applied:
 - **Fluid typography** using `clamp()` and viewport units
