@@ -1,0 +1,124 @@
+:root {
+  --color-red: #ea5353ff;
+  --color-cyan: #45d3d3ff;
+  --color-orange: #fcaf4aff;
+  --color-blue: #549ef2ff;
+  --color-dark-grey: #4c4e61ff;
+  --color-light-grey: #697077ff;
+  --font-size: 15px;
+  --font-family: "Poppins", sans-serif;
+  /*Utopia font-sizes*/
+  --step--2: clamp(0.434rem, 0.4135rem + 0.1027vw, 0.5002rem);
+  --step--1: clamp(0.5208rem, 0.4629rem + 0.2895vw, 0.7072rem);
+  --step-0: clamp(0.625rem, 0.5085rem + 0.5825vw, 1rem);
+  --step-1: clamp(0.75rem, 0.5437rem + 1.0315vw, 1.414rem);
+  --step-2: clamp(0.9rem, 0.5584rem + 1.7078vw, 1.9994rem);
+  --step-3: clamp(1.08rem, 0.5372rem + 2.714vw, 2.8271rem);
+  --step-4: clamp(1.296rem, 0.4567rem + 4.1966vw, 3.9976rem);
+  --step-5: clamp(1.5552rem, 0.2822rem + 6.3649vw, 5.6526rem);
+}
+
+/*reset everything*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*padding all over the content*/
+.main-content {
+  padding: var(--step-5);
+}
+
+/*common properties*/
+body {
+  background-color: white;
+  color: var(--color-dark-grey);
+  font-family: var(--font-family);
+  line-height: 1.5;
+}
+
+/*designer tip: bigger texts need reduced line-height*/
+h1,
+h2 {
+  line-height: 1;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  text-align: center;
+  max-width: 600px;
+}
+
+/*Reliable, efficient delivery*/
+.header-content h2 {
+  font-size: var(--step-3);
+  font-weight: 200;
+}
+
+/*Powered by Technology*/
+.header-content h1 {
+  font-size: var(--step-3);
+  font-weight: 600;
+}
+
+/*header paragraph*/
+.header-content p {
+  font-weight: 400;
+  font-size: var(--step-0);
+  margin-top: 1rem;
+}
+
+.all-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: clamp(1rem, 3vw, 2rem);
+  justify-content: center;
+  align-items: center;
+  margin-top: clamp(2rem, 5vw, 4rem);
+  place-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 1rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/*Cards Border color*/
+.card-supervisor {border-top: 4px solid var(--color-cyan);}
+.card-team-builder {border-top: 4px solid var(--color-red);}
+.card-karma {border-top: 4px solid var(--color-orange);}
+.card-calculator {border-top: 4px solid var(--color-blue);}
+
+.card-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+img {
+  max-width: 50px;
+}
+
+/*card title*/
+.card h1 {
+  font-weight: 600;
+  font-size: var(--step-1);
+}
+
+/*card paragraph*/
+.card p {
+  font-size: var(--step-0);
+}
