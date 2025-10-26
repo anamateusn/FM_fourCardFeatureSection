@@ -10,6 +10,9 @@ Users should be able to:
 - See a visually appealing four-card layout that adapts seamlessly from desktop to mobile
 - Experience a clean, modern design with proper spacing and typography hierarchy
 
+## Preview
+![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
+
 ## Project Structure
 
 This repository contains **two distinct implementations**:
@@ -56,9 +59,6 @@ This project was heavily influenced by **Andy Bell's "Be the browser's mentor, n
 - **Intrinsic design** allowing elements to naturally adapt to available space
 - **Progressive enhancement** rather than pixel-perfect control at every breakpoint
 - **CSS custom properties** for systematic design tokens
-
-## Preview
-![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
 ## What I Learned
 
