@@ -17,12 +17,15 @@ This repository contains **two distinct implementations**:
 ### 1. **Original Design** (`index.html` + `style.css`)
 - Faithful implementation matching Frontend Mentor's design specifications
 - Traditional responsive approach with media queries
-- Pixel-perfect recreation of the provided designs
+
+![Original Design Final Preview](./final-preview/media-queries.png)
 
 ### 2. **Andy Bell's Methodology** (`second-index.html` + `second-index.css`)
 - Implementation following **"Be the browser's mentor, not its micromanager"** principles
 - Fluid responsive design with minimal media queries
 - Modern CSS techniques focusing on intrinsic web design
+
+![Andy Bell's Inspired Design Preview](./final-preview/no-media-queries.png)
 
 ## Built With
 
@@ -46,7 +49,7 @@ This repository contains **two distinct implementations**:
 
 ## Research & Methodology
 
-This project was heavily influenced by **Andy Bell's "Be the browser's mentor, not its micromanager"** philosophy. The main focus was to practice and implement truly responsive websites that work across all devices without over-relying on media queries.
+This project was heavily influenced by **Andy Bell's "Be the browser's mentor, not its micromanager"** philosophy. The main focus was to practice and implement truly responsive websites that work across all devices without relying on media queries.
 
 ### Key Principles Applied:
 - **Fluid typography** using `clamp()` and viewport units
